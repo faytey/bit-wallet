@@ -3,7 +3,7 @@ const sep = require("tiny-secp256k1");
 const bip39 = require("bip39");
 const bitcoin = require("bitcoinjs-lib");
 
-const network = bitcoin.networks.bitcoin;
+const network = bitcoin.networks.testnet;
 
 const path = `m/44'/1'/0'/0`;
 let mnemonic = bip39.generateMnemonic();
